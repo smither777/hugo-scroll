@@ -6,6 +6,14 @@
   <body>
     {{- partial "header.html" . -}}
     {{- block "main" . }}{{- end }}
+    
+    <!-- Peace Love Pizza Tagline before footer -->
+    <section class="pre-footer-tagline">
+      <div class="inner">
+        <p>☮️ Peace. ❤️ Love. 🍕 Pizza.<sup>®</sup></p>
+      </div>
+    </section>
+    
     {{- partial "footer.html" . -}}
 
     <!-- We do need jQuery to be loaded before HugoScroll script -->
